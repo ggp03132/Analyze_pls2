@@ -4,9 +4,9 @@ import numpy as np
 from ultralytics import YOLO
 
 #자신의 경로에 맞게
-VIDEO_PATH = "videos/test02.mp4"
-CSV_PATH = "parking_slots.csv"
-OUTPUT_PATH = "videos/output/output_parking_(8).mp4"
+VIDEO_PATH = "videos/test.mp4"
+CSV_PATH = "slots.csv"
+OUTPUT_PATH = "videos/output/output_parking_(7).mp4"
 MODEL_PATH = "best.pt"
 
 CONFIDENCE = 0.25
